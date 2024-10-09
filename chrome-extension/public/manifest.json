@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Ssshh",
+  "description": "E2e on public channels",
+  "version": "0.0",
+  "action": {
+    "default_popup": "./index.html"
+  },
+  "permissions": ["contextMenus", "scripting"],
+  "host_permissions": ["*://*/*"]
+}
